@@ -1,0 +1,37 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center_horizontal"
+  android:background="@drawable/bg_inside">
+    
+  	<FrameLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/tt_share">
+		
+	</FrameLayout>
+	
+	<com.forixusa.android.controls.ButtonBoldTemplate  
+		android:id="@+id/btnShareEmail"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="20dip"	
+		android:background="@drawable/share_icon1"/>
+			
+	<com.forixusa.android.controls.ButtonBoldTemplate  
+		android:id="@+id/btnShareFacebook"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="20dip"
+		android:background="@drawable/share_icon2"/>
+			
+	<com.forixusa.android.controls.ButtonBoldTemplate  
+		android:id="@+id/btnShareTwitter"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="20dip"
+		android:background="@drawable/share_icon3"/>
+			
+</LinearLayout>

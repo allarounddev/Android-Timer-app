@@ -1,0 +1,59 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center_horizontal"
+  android:background="@drawable/bg_inside">
+    
+  	<FrameLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/tt_about_us">
+			
+		<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnShare"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical|right"
+			android:gravity="center_vertical"
+			android:background="@drawable/btn_share"/>
+	
+	</FrameLayout>
+	
+	<ScrollView
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent">
+  		
+  		<FrameLayout
+  			android:orientation="vertical"
+  			android:layout_width="fill_parent"
+  			android:layout_height="fill_parent">
+  
+	  		<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:scaleType="fitXY"
+				android:src="@drawable/aboutus"/>
+	  		
+	  		<ImageView
+	  		    android:id="@+id/imgSendEmail" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:scaleType="fitXY"
+				android:src="@drawable/txt_email"
+				android:layout_gravity="bottom"
+				android:layout_marginLeft="100dip"
+				android:paddingBottom="663dip"/>
+	  			
+			<TextView android:id="@+id/lblContent" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:textSize="16dip"
+				android:textColor="#000000"
+				android:padding="15dip"
+				android:visibility="gone"/>
+		</FrameLayout>
+	</ScrollView>
+	
+</LinearLayout>

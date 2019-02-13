@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:padding="10dip">
+			
+	<TextView android:id="@+id/lblName" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="15dip"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:gravity="center_vertical"
+		android:layout_gravity="left"/>
+	
+	<RadioButton android:id="@+id/rdbSelect"  
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center_vertical|right"/>
+		
+</FrameLayout>

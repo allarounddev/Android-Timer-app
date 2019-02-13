@@ -1,0 +1,159 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center_horizontal"
+  android:background="@drawable/bg_inside">
+    
+  	<FrameLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/tt_result">
+		
+		<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnShare"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical|right"
+			android:background="@drawable/btn_share"
+			android:layout_marginTop="5dip"/>
+	
+	</FrameLayout>
+	
+	<ImageView  
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="10dip"
+		android:src="@drawable/txt_needhelp"/>
+	   
+	<TableLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+   	 	android:stretchColumns="1"
+   	 	android:layout_marginLeft="10dip"
+   	 	android:layout_marginRight="10dip"
+   	 	android:layout_marginTop="20dip"
+   	 	android:padding="5dip"
+   	 	android:background="@drawable/bg_result">
+
+	    <TableRow 
+	        android:layout_marginTop="5dip"
+	        android:layout_marginBottom="5dip">
+	        <TextView
+	            android:layout_column="1"
+	            android:text="Accuracy"
+	            android:padding="3dip" 
+	            android:textColor="#000000"
+	            android:textSize="16dip"
+				android:textStyle="bold"/>
+	        <TextView
+	            android:id="@+id/txtAccuracy"
+	            android:gravity="right"
+	            android:padding="3dip"
+	            android:textSize="16dip"
+				android:textStyle="bold"
+	            android:textColor="#000000" />
+	    </TableRow>
+		<View
+  			android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background = "#FFFFFF"
+			/>
+	    <TableRow android:layout_marginTop="5dip"
+	        android:layout_marginBottom="5dip">
+	        <TextView
+	            android:layout_column="1"
+	            android:text="Passage Pace"
+	            android:padding="3dip"
+	            android:textSize="16dip"
+				android:textStyle="bold"
+	            android:textColor="#000000" />
+	        <TextView
+	             android:id="@+id/txtPace"
+	            android:gravity="right"
+	            android:padding="3dip"
+	            android:textSize="16dip"
+				android:textStyle="bold"
+	            android:textColor="#000000" />
+	    </TableRow>
+		<View
+  			android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background = "#FFFFFF"
+			/>
+	    <TableRow android:layout_marginTop="5dip"
+	        android:layout_marginBottom="5dip">
+	        <TextView
+	            android:layout_column="1"
+	            android:text="Estimated Correct"
+	            android:padding="3dip"
+	            android:textSize="16dip"
+				android:textStyle="bold"
+	            android:textColor="#000000" />
+	        <TextView
+	             android:id="@+id/txtEstimatedCorrect"
+	            android:gravity="right"
+	            android:padding="3dip"
+	            android:textSize="16dip"
+				android:textStyle="bold"
+	            android:textColor="#000000" />
+	    </TableRow>
+		<View
+  			android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background = "#FFFFFF"
+			/>
+	    <TableRow android:layout_marginTop="5dip"
+	        android:layout_marginBottom="5dip">
+	        <TextView
+	        	android:layout_column="1"
+	            android:text="Estimated Score"
+	            android:padding="3dip"
+	            android:textSize="16dip"
+				android:textStyle="bold"
+	            android:textColor="#000000" />
+	        <TextView
+	            android:id="@+id/txtEstimatedScore"
+	            android:padding="3dip"
+	            android:gravity="right"
+	            android:textSize="16dip"
+				android:textStyle="bold"
+	            android:textColor="#000000" />
+	    </TableRow>
+
+    </TableLayout>
+    
+	<RelativeLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+		<LinearLayout 
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:layout_marginTop="10dip">
+		
+			<com.forixusa.android.controls.ButtonBoldTemplate  
+				android:id="@+id/btnSave"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:background="@drawable/btn_save"
+				android:layout_marginRight="15dip"/>
+				
+			<com.forixusa.android.controls.ButtonBoldTemplate  
+				android:id="@+id/btnAdjustInput"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:background="@drawable/btn_adjust_input"/>
+				
+		</LinearLayout>	
+		<ImageView
+		    android:id="@+id/imgSaveHint"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:src="@drawable/btn_no4"
+			android:layout_marginLeft="10dip"/>
+	</RelativeLayout>
+</LinearLayout>

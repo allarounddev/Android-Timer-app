@@ -1,0 +1,214 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center_horizontal"
+  android:background="@drawable/bg_inside">
+    
+  	<FrameLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/tt_home">
+		
+  	    <com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnTestOptions"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center"
+			android:layout_marginTop="5dip"
+			android:layout_marginBottom="5dip"
+			android:layout_marginRight="7dip"/>
+		
+		<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnShare"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical|right"
+			android:background="@drawable/btn_share"
+			android:layout_marginTop="5dip"/>
+	
+	</FrameLayout>
+	
+   <ImageView  
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="20dip"
+		android:src="@drawable/txt_needhelp"/>
+  	    	
+  	<RelativeLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+				
+		<FrameLayout 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="15dip"
+			android:layout_marginRight="5dip"
+			android:background="@drawable/bg_timer">
+
+			<Chronometer 
+				android:id="@+id/chrCountTimer"
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:textColor="#000000" 
+				android:textSize="40dip"			
+				android:textStyle="bold"
+				android:text="00:00:00"
+			    android:layout_gravity="center"
+			    android:gravity="center"
+			    android:layout_marginLeft="25dip"/>
+			
+		</FrameLayout>
+		<ImageView
+		    android:id="@+id/imgTimerHint"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:src="@drawable/btn_no1"/>
+		    
+			
+	</RelativeLayout>
+	
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_marginTop="20dip">
+	
+	   	<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnStartReading"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:background="@drawable/btn_start_reading"
+			android:layout_marginRight="5dip"/>
+	    	    
+		<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnStartQuestion"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:background="@drawable/btn_start_question"
+			android:layout_marginRight="5dip"/>
+			
+		<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnDone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:background="@drawable/btn_done"/>
+	</LinearLayout>
+	<View
+ 			android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background = "@color/line_color"
+			android:layout_marginTop="20dip"/>
+	
+	<RelativeLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		android:layout_marginLeft="35dip">
+		<LinearLayout 
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical|right"
+			android:layout_marginTop="15dip">
+		
+			<TextView android:id="@+id/lblTitle" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:textSize="23dip"
+				android:textStyle="bold"
+				android:textColor="#000000"
+				android:layout_gravity="center"
+				android:text="Number of Questions"
+				android:paddingLeft="5dip"/>
+					
+			<Spinner android:id="@+id/spnNumOfQuestion"
+	            android:layout_width="200dip"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="79dip"
+				android:layout_gravity = "right|center_vertical"
+				android:prompt="@string/choose_numberOfQuestion"
+				/>
+				
+		</LinearLayout>	
+		<ImageView
+		    android:id="@+id/imgQuestionHint"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:src="@drawable/btn_no2"/>
+	</RelativeLayout>
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical|right"
+		android:layout_marginTop="5dip">
+	
+		<TextView android:id="@+id/lblTitle" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textSize="23dip"
+			android:textStyle="bold"
+			android:textColor="#000000"
+			android:layout_gravity="center"
+			android:text="Correct Answers"/>
+			
+		<Spinner android:id="@+id/spnNumOfCorrectAnswer"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="62dip"
+			android:layout_gravity = "right|center_vertical"
+			android:prompt="@string/choose_numOfCorrectAnswer"
+			/>    
+			
+	</LinearLayout>	
+	<View
+ 			android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background = "@color/line_color"
+			android:layout_marginTop="10dip"/>
+	<RelativeLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		android:layout_marginLeft="27dip">
+		<LinearLayout 
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_marginTop="25dip">
+		
+			<com.forixusa.android.controls.ButtonBoldTemplate  
+				android:id="@+id/btnGetResult"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:background="@drawable/btn_get_result"
+				android:layout_marginRight="5dip"/>
+				
+			<com.forixusa.android.controls.ButtonBoldTemplate  
+				android:id="@+id/btnResetData"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:background="@drawable/btn_reset_data"
+				android:layout_marginRight="5dip"/>
+				
+		</LinearLayout>	
+		<ImageView
+		    android:id="@+id/imgButtonHint"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:src="@drawable/btn_no3"
+			android:layout_marginLeft="10dip"/>
+	</RelativeLayout>
+	<View
+ 			android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background = "@color/line_color"
+			android:layout_marginTop="20dip"
+			android:layout_marginBottom="20dip"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ScoreTimerActivity!</string>
+    <string name="app_name">Score Timer GRE</string>
+    <string name="loading">Loading. Please wait...</string>
+    
+    <string name="no_network_connection">We are having trouble connecting you at this time, probably due to a slow network connection or no connection at all. Please check it and try again.</string>
+    <string name="network_error"> Could not load data. Please check your Internet connection or try again later.</string>
+    
+    <string name="choose_numberOfQuestion">Choose number of question</string>
+    <string name="choose_numOfCorrectAnswer"> Choose number of correct answer</string>
+    
+    <string name="hint_1"> Once a student has practiced with the timer several times it is essential for him or her to also test his or her ability to deal with sound disruptions. We encourage our clients to consider noisy locations so that he or she can gain a handle on what it is like to take test in unfamiliar public place.</string>
+    <string name="hint_2"> It is important to avoid any last minute studying. A person will have a better chance succeeding if he or she goes into the test feeling refresh. Also a student should remember to invoke confidence and stay calm.</string>
+    <string name="hint_3"> Most importantly a student can always take the test again. We often tell our clients that one test does not define who you are.</string>
+    <string name="hint_4"> Every day a student should make a part of his or her day devoted to practicing his or her test taking skills.</string>
+    <string name="hint_5"> Please go to our site to read about the latest helpful tips and hints that will make your studying experiencing more fulfilling.</string>
+    
+</resources>

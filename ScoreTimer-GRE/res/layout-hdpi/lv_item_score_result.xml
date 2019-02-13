@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:paddingLeft="0dip"
+	android:paddingTop="10dip"
+	android:paddingRight="10dip"
+	android:paddingBottom="10dip">
+			
+    
+	<TextView
+		android:id="@+id/txtDate"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#249E2C"
+		android:textSize="15dip"
+		android:background="#FDF9EF"
+		android:padding="5dip"/>
+    
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		android:paddingLeft="10dip">
+		
+		<LinearLayout 
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="25dip">
+			<TextView
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+	          	android:text="Accuracy: "
+	          	android:textColor="#000000"
+	          	android:textSize="15dip"
+			  	/>
+			<TextView
+			    android:id="@+id/txtAccuracy"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+	          	android:textColor="#000000"
+	          	android:textSize="15dip"/>
+		</LinearLayout>
+		<LinearLayout 
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+	          	android:text="Est. Score: "
+	          	android:textColor="#000000"
+	          	android:textSize="15dip"
+			  	/>
+			<TextView
+			    android:id="@+id/txtEstimatedScore"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+	          	android:textColor="#000000"
+	          	android:textSize="15dip"/>
+		</LinearLayout> 
+	</LinearLayout>
+	
+   	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		android:paddingLeft="10dip">
+		<TextView
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+          	android:text="Pace: "
+          	android:textColor="#000000"
+          	android:textSize="15dip"
+		  	/>
+		<TextView
+		    android:id="@+id/txtPace"
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+          	android:textColor="#000000"
+          	android:textSize="15dip"/>
+	</LinearLayout>   
+	  
+		
+</LinearLayout>

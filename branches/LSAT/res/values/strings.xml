@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ScoreTimerActivity!</string>
+    <string name="app_name">Score Timer</string>
+    <string name="loading">Loading. Please wait...</string>
+    
+    <string name="no_network_connection">We are having trouble connecting you at this time, probably due to a slow network connection or no connection at all. Please check it and try again.</string>
+    <string name="network_error"> Could not load data. Please check your Internet connection or try again later.</string>
+    
+    <string name="choose_numberOfQuestion">Choose number of question</string>
+    <string name="choose_numOfCorrectAnswer"> Choose number of correct answer</string>
+    
+</resources>

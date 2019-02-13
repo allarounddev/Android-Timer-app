@@ -1,0 +1,47 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center_horizontal"
+  android:background="@drawable/home">
+    	
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		android:paddingTop="10dip"
+  		android:paddingLeft="10dip"
+  		android:paddingRight="10dip"
+  		android:paddingBottom="30dip"
+  		android:background="@drawable/home">
+  			
+		<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnBiological"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="bottom"
+			android:layout_marginTop="5dip"
+			android:layout_marginRight="5dip"
+			android:background="@drawable/home_btn1"/>
+			
+		<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnVerbal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="bottom"
+			android:layout_marginTop="5dip"
+			android:layout_marginRight="5dip"
+			android:background="@drawable/home_btn2"/>
+			
+		<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnPhysical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="bottom"
+			android:layout_marginTop="5dip"
+			android:background="@drawable/home_btn3"/>
+		
+	</LinearLayout>
+	
+</LinearLayout>

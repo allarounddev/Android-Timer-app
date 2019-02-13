@@ -1,0 +1,174 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center_horizontal"
+  android:background="@drawable/bg_inside">
+    
+  	<FrameLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/tt_summary">
+		
+		<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnTestOptions"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center"
+			android:layout_marginTop="5dip"
+			android:layout_marginBottom="5dip"
+			android:layout_marginRight="7dip"/>
+		
+		<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnShare"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical|right"
+			android:background="@drawable/btn_share"
+			android:layout_marginTop="5dip"/>
+	
+	</FrameLayout>
+	
+	<ImageView  
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="10dip"
+		android:src="@drawable/txt_needhelp"/>
+	   
+  	<RelativeLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dip">
+		
+	  	<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="170dip"
+	   	 	android:layout_marginTop="10dip"
+	   	 	android:layout_marginLeft="5dip"
+	   		android:layout_marginRight="20dip"
+	   	 	android:padding="5dip"
+	   	 	android:background="@drawable/bg_blog1">
+			
+	  	    <ListView android:id="@+id/lvSummary" 
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent" 
+				android:cacheColorHint="#00000000"
+				android:divider="#C4E1EF"
+				android:dividerHeight="1dip" />
+	  	    
+		</LinearLayout>
+  	    
+		<ImageView
+		    android:id="@+id/imgGraphHint"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/btn_no5" />
+
+	</RelativeLayout>
+	
+  	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dip"
+		android:layout_marginLeft="13dip"
+   	 	android:layout_marginRight="10dip"
+   	 	android:padding="5dip"
+   	 	 android:background="@drawable/bg_blog2">
+		
+    	<TextView	      
+    	    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+          	android:text="Summary: "
+          	android:textColor="#000000"
+          	android:textSize="17dip"
+          	android:textStyle="bold"/>
+    	
+    	<LinearLayout 
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="10dip">
+			<TextView
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+	          	android:text="Average Accuracy: "
+	          	android:textColor="#000000"
+	          	android:textSize="15dip"
+			  	/>
+			<TextView
+			    android:id="@+id/txtAverageAccuracy"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+	          	android:textColor="#000000"
+	          	android:textSize="15dip"/>
+		</LinearLayout>
+		
+    	<LinearLayout 
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="10dip">
+			<TextView
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+	          	android:text="Average Pace: "
+	          	android:textColor="#000000"
+	          	android:textSize="15dip"
+			  	/>
+			<TextView
+			    android:id="@+id/txtAveragePace"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+	          	android:textColor="#000000"
+	          	android:textSize="15dip"/>
+		</LinearLayout>   
+		<LinearLayout 
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="10dip">
+			<TextView
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+	          	android:text="Average Estimated Score: "
+	          	android:textColor="#000000"
+	          	android:textSize="15dip"
+			  	/>
+			<TextView
+			    android:id="@+id/txtAverageEstimatedScore"
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+	          	android:textColor="#000000"
+	          	android:textSize="15dip"/>
+		</LinearLayout>   
+		
+	</LinearLayout>
+  	    
+  	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:layout_marginTop="10dip">
+	
+		<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnReset"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:background="@drawable/btn_reset"
+			android:layout_marginRight="30dip"/>
+			
+		<com.forixusa.android.controls.ButtonBoldTemplate  
+			android:id="@+id/btnGraph"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:background="@drawable/btn_graph"/>
+			
+	</LinearLayout>	
+</LinearLayout>

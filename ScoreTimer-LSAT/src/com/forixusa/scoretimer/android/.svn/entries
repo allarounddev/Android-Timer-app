@@ -1,0 +1,86 @@
+10
+
+dir
+21599
+svn://forixsvn.forix.net/home/forixsvn/android/ScoreTimer/trunk/src/com/forixusa/scoretimer/android
+svn://forixsvn.forix.net/home/forixsvn
+
+
+
+2012-03-01T05:54:34.770921Z
+21200
+tinh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+64be2e68-e2a8-4337-9086-b93863f0b482
+
+adapter
+dir
+
+ScoreTimerApplication.java
+file
+
+
+
+
+2012-02-17T08:52:59.000000Z
+06b92108211bf97405d4b5d856ffa6ca
+2012-03-01T05:40:57.069836Z
+21181
+tinh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1293
+
+graph
+dir
+
+models
+dir
+
+services
+dir
+
+activities
+dir
+
+data
+dir
+
+tabs
+dir
+
+view
+dir
+
